@@ -1,0 +1,11 @@
+{
+	"matrix": {
+		"baseUrl": "http://matrix.org",
+		"accessToken": "MDAxN2xvY2F0.wkugdbh.eiorg.l4jtdhgo;uk.rlrgdou.kfjnowpreihtdfkd;/wirhgkdjf,",
+		"userId": "@userid:matrix.org"
+	},
+	"newsbot": {
+		"roomId": "!hbddlfkjighklielkrjjhk:matrix.org",
+		"newsIntervalMs": "10000"
+	}
+}
