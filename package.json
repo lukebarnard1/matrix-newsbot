@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "matrix-js-sdk": "^0.8.4",
+    "newsapi": "^2.0.1",
     "request": "^2.83.0"
   }
 }

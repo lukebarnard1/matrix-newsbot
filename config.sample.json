@@ -6,6 +6,7 @@
 	},
 	"newsbot": {
 		"roomId": "!hbddlfkjighklielkrjjhk:matrix.org",
-		"newsIntervalMs": "10000"
+		"newsIntervalMs": "10000",
+		"newsApiKey": "123456789098765432"
 	}
 }
