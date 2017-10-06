@@ -7,9 +7,9 @@ This bot will be a simple matrix client (not application service) that will post
 
 ```json
 {
-	title: "The Title of The News Story",
-	body: "The body of the news story, including *markdown* if desired",
-	local: true
+	"title": "The Title of The News Story",
+	"body": "The body of the news story, including *markdown* if desired",
+	"local": true
 }
 ```
  - `title`: The title of the news story.
