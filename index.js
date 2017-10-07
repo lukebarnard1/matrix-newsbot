@@ -46,7 +46,9 @@ const startSendingNews = (news) => {
 
 	const sendNews = () => {
 		console.info('Sending news item', i, ':', news[i].title);
-		client.sendEvent(options.roomId, options.newsType, news[i]);
+		client.sendEvent(options.roomId, options.newsType, news[i]).catch((err)=>{
+			console.error(err);
+		});
 		i = (i + 1) % news.length;
 	};
 
