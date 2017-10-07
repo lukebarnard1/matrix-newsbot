@@ -10,7 +10,7 @@ const matrixOptions = {
 };
 
 const options = {
-	newsType: 'x.news',
+	newsType: 'c.news',
 };
 
 try {
