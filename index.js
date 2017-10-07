@@ -27,7 +27,7 @@ const client = new MatrixClient(matrixOptions);
 let newsApi = new NewsAPI(options.newsApiKey);
 
 newsApi.articles({
-  source: 'bbc-news',
+  source: options.newsSource,
   sortBy: 'top',
 }).then(articlesResponse => {
 	const news = articlesResponse.articles.map((apiArticle) => {
@@ -35,6 +35,7 @@ newsApi.articles({
 			title: apiArticle.title,
 			body: apiArticle.description,
 			image: apiArticle.urlToImage,
+			datestamp: apiArticle.publishedAt,
 			local: false,
 		};
 	});
